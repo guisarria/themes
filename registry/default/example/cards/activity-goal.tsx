@@ -73,8 +73,8 @@ export function CardsActivityGoal() {
   return (
     <Card>
       <CardHeader className="pb-4">
-        <CardTitle className="text-base">Move Goal</CardTitle>
-        <CardDescription>Set your daily activity goal.</CardDescription>
+        <CardTitle className="text-base">Exercícios</CardTitle>
+        <CardDescription>Defina seu objetivo do dia.</CardDescription>
       </CardHeader>
       <CardContent className="pb-2">
         <div className="flex items-center justify-center space-x-2">
@@ -86,12 +86,12 @@ export function CardsActivityGoal() {
             disabled={goal <= 200}
           >
             <Minus className="h-4 w-4" />
-            <span className="sr-only">Decrease</span>
+            <span className="sr-only">Diminuir</span>
           </Button>
           <div className="flex-1 text-center">
             <div className="text-5xl font-bold tracking-tighter">{goal}</div>
             <div className="text-[0.70rem] uppercase text-muted-foreground">
-              Calories/day
+              Calorias/dia
             </div>
           </div>
           <Button
@@ -106,7 +106,7 @@ export function CardsActivityGoal() {
           </Button>
         </div>
         <div className="my-3 h-[60px]">
-          <ResponsiveContainer width="100%" height="100%">
+        <ResponsiveContainer width="100%" height={200}>
             <BarChart data={data}>
               <Bar
                 dataKey="goal"
@@ -125,7 +125,7 @@ export function CardsActivityGoal() {
         </div>
       </CardContent>
       <CardFooter>
-        <Button className="w-full">Set Goal</Button>
+        <Button className="w-full">Definir Meta</Button>
       </CardFooter>
     </Card>
   )

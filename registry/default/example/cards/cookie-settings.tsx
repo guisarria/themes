@@ -16,16 +16,16 @@ export function CardsCookieSettings() {
   return (
     <Card>
       <CardHeader>
-        <CardTitle>Cookie Settings</CardTitle>
-        <CardDescription>Manage your cookie settings here.</CardDescription>
+        <CardTitle>Definições de Cookie</CardTitle>
+        <CardDescription>Controle seus cookies aqui.</CardDescription>
       </CardHeader>
       <CardContent className="grid gap-6">
         <div className="flex items-center justify-between space-x-4">
           <Label htmlFor="necessary" className="flex flex-col space-y-1">
-            <span>Strictly Necessary</span>
+            <span>Estritamente Necessário</span>
             <span className="text-xs font-normal leading-snug text-muted-foreground">
-              These cookies are essential in order to use the website and use
-              its features.
+            Estes cookies são essenciais para utilizar o site e usar
+              suas funcionalidades.
             </span>
           </Label>
           <Switch id="necessary" defaultChecked aria-label="Necessary" />

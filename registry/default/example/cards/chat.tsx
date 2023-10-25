@@ -74,20 +74,20 @@ export function CardsChat() {
 
   const [messages, setMessages] = React.useState([
     {
-      role: "agent",
-      content: "Hi, how can I help you today?",
+      role: "atendente",
+      content: "Olá como posso te ajudar?",
     },
     {
       role: "user",
-      content: "Hey, I'm having trouble with my account.",
+      content: "Olá, Estou com problemas na minha conta.",
     },
     {
-      role: "agent",
-      content: "What seems to be the problem?",
+      role: "atendente",
+      content: "Poderia me dizer o problema?",
     },
     {
       role: "user",
-      content: "I can't log in.",
+      content: "Não consigo logar.",
     },
   ])
   const [input, setInput] = React.useState("")
@@ -117,7 +117,7 @@ export function CardsChat() {
                   onClick={() => setOpen(true)}
                 >
                   <Plus className="h-4 w-4" />
-                  <span className="sr-only">New message</span>
+                  <span className="sr-only">Nova mensagem</span>
                 </Button>
               </TooltipTrigger>
               <TooltipContent sideOffset={10}>New message</TooltipContent>
@@ -175,14 +175,14 @@ export function CardsChat() {
       <Dialog open={open} onOpenChange={setOpen}>
         <DialogContent className="gap-0 p-0 outline-none">
           <DialogHeader className="px-4 pb-4 pt-5">
-            <DialogTitle>New message</DialogTitle>
+            <DialogTitle>Nova Mensagem</DialogTitle>
             <DialogDescription>
-              Invite a user to this thread. This will create a new group
-              message.
+              Convide um usuário para este tópico. Isso criará um novo grupo
+              mensagem.
             </DialogDescription>
           </DialogHeader>
           <Command className="overflow-hidden rounded-t-none border-t">
-            <CommandInput placeholder="Search user..." />
+            <CommandInput placeholder="Procurar usuário..." />
             <CommandList>
               <CommandEmpty>No users found.</CommandEmpty>
               <CommandGroup className="p-2">
@@ -241,7 +241,7 @@ export function CardsChat() {
               </div>
             ) : (
               <p className="text-sm text-muted-foreground">
-                Select users to add to this thread.
+                Selecione o usuário para adicionar a essa thread.
               </p>
             )}
             <Button
@@ -250,7 +250,7 @@ export function CardsChat() {
                 setOpen(false)
               }}
             >
-              Continue
+              Continuar
             </Button>
           </DialogFooter>
         </DialogContent>

@@ -21,9 +21,9 @@ export default function ThemesPage() {
         className={cn("relative flex flex-col items-start md:flex-row md:items-center")}
       >
         <PageHeader className="relative pb-4 md:pb-8 lg:pb-12">
-          <PageHeaderHeading>Make it yours.</PageHeaderHeading>
+          <PageHeaderHeading>Customize seu tema.</PageHeaderHeading>
           <PageHeaderDescription>
-            Hand-picked themes that you can copy and paste into your apps.
+            Color picker em breve.
           </PageHeaderDescription>
         </PageHeader>
         <div className="px-4 pb-8 md:ml-auto md:pb-0">

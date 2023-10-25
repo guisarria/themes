@@ -426,8 +426,8 @@ export const themes = [
       name: "green",
       label: "Green",
       activeColor: {
-        light: "142.1 76.2% 36.3%",
-        dark: "142.1 70.6% 45.3%",
+        light: "140.73 95.98% 60.98%",
+        dark: "140.73 95.98% 60.98%",
       },
       cssVars: {
         light: {
@@ -437,7 +437,7 @@ export const themes = [
           "card-foreground": "240 10% 3.9%",
           popover: "0 0% 100%",
           "popover-foreground": "240 10% 3.9%",
-          primary: "142.1 76.2% 36.3%",
+          primary: "140.73 95.98% 60.98%",
           "primary-foreground": "355.7 100% 97.3%",
           secondary: "240 4.8% 95.9%",
           "secondary-foreground": "240 5.9% 10%",
@@ -449,7 +449,7 @@ export const themes = [
           "destructive-foreground": "0 0% 98%",
           border: "240 5.9% 90%",
           input: "240 5.9% 90%",
-          ring: "142.1 76.2% 36.3%",
+          ring: "140.73 95.98% 60.98%",
         },
         dark: {
           background: "20 14.3% 4.1%",
@@ -458,7 +458,7 @@ export const themes = [
           "popover-foreground": "0 0% 95%",
           card: "24 9.8% 10%",
           "card-foreground": "0 0% 95%",
-          primary: "142.1 70.6% 45.3%",
+          primary: "140.73 95.98% 60.98%",
           "primary-foreground": "144.9 80.4% 10%",
           secondary: "240 3.7% 15.9%",
           "secondary-foreground": "0 0% 98%",
@@ -470,7 +470,7 @@ export const themes = [
           "destructive-foreground": "0 85.7% 97.3%",
           border: "240 3.7% 15.9%",
           input: "240 3.7% 15.9%",
-          ring: "142.4 71.8% 29.2%",
+          ring: "140.73 95.98% 60.98%",
         },
       },
     },
