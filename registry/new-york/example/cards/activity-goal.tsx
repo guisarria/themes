@@ -106,7 +106,7 @@ export function CardsActivityGoal() {
           </Button>
         </div>
         <div className="my-3 h-[60px]">
-          <ResponsiveContainer width="100%" height="100%">
+        <ResponsiveContainer width="100%" height={200}>
             <BarChart data={data}>
               <Bar
                 dataKey="goal"

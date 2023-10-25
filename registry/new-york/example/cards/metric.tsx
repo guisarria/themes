@@ -58,7 +58,7 @@ export function CardsMetric() {
       </CardHeader>
       <CardContent className="pb-4">
         <div className="h-[200px]">
-          <ResponsiveContainer width="100%" height="100%">
+        <ResponsiveContainer width="100%" height={200}>
             <LineChart
               data={data}
               margin={{
